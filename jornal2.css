@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+.cima {
+    background-color: rgb(192, 8, 192);
+    height: 10vh;
+}
+
+.cima1 {
+    display: flex;
+    justify-items: baseline;
+    margin-left: 5vh;
+
+
+}
+
+.txt {
+    color: black;
+    margin-top: 3vh;
+    display: flex;
+
+}
+
+.nm {
+    margin-top: 2vh;
+    margin-left: 5vh;
+
+}
+
+.img {
+    width: auto;
+    height: 20vh;
+}
+
+.sct1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 5vh;
+}
+
+.txt1 {
+    display: flex;
+    margin-left: 15px;
+}
+
+.txt2 {
+    display: flex;
+    justify-content: start;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-mae {
+    position: relative;
+}
+
+.txt2 {
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    width: 1000px;
+}
+
+.img3 {
+    height: 20vh;
+    width: 30vh;
+}
+
+.container-his {
+    position: relative;
+}
+
+.img3 {
+    position: absolute;
+}
+
+.container-txt{
+    position: absolute;
+    left: 300px;
+}

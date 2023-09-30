@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.header1 {
+    display: block;
+    position: relative;
+    height: 120px;
+    background-color: rgb(112, 1, 139);
+}
+
+.img {
+    border-radius: 10vh;
+    width: 500px;
+    position: absolute;
+   margin-top: 10px;
+    z-index: 1;
+    padding-left: 100px;
+
+}
+
+.menu {
+    font-weight: bolder;
+    margin-top: 25vh;
+    padding-left: 20px;
+}
+
+
+.img2 {
+    width: 500px;
+    margin-top: 30px;
+    padding-left: 35vh;
+}
+
+.p1 {
+    display: flex;
+    margin-left: 5vh;
+}
+
+.p2 {
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 5VH;
+
+}
+
+.sct1 {
+    display: flex;
+
+}
+
+#linha-vertical {
+    height: -300vh;
+    width: 30px;
+    size: 900px;
+    border-right: 1px solid black;
+    margin-top: -190px;
+
+}
+
+.img3 {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.cinza {
+    height: 10px;
+    width: 10%;
+    margin-top: -160px;
+
+}
+
+.nav {
+    display: flex;
+
+}
+
+.sessoes {
+    width: 50%;
+    text-align: right;
+    margin-left: 130px;
+}
+
+.sessoes a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.containersolar {
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    top: 130px;
+    left: 430px;
+}
+
+.containertitulo {
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    top: 20px;
+    left: 580px;
+    font-size: 90px;
+}
+
+.containertexto {
+    position: relative;
+}
+
+.txt1 {
+    position: absolute;
+    top: 670px;
+}
+
+.containertexto2 {
+    position: relative;
+}
+
+.txt2 {
+    position: absolute;
+    top: 730px;
+}

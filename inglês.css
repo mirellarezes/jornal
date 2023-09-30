@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding-left: 0%;
+}
+
+
+.nav-container{
+    display: block;
+    position: relative;
+    height: 120px;
+    background-color: rgb(112, 1, 139);
+}
+
+.img {
+    display: flex;
+    border-radius: 10vh;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    margin: -5vh;
+    z-index: 1; 
+    margin-left: -20px;
+    padding-left: 40px;
+
+
+
+}
+
+.nome-noticia {
+    color: black;
+    font-size: 6vh;
+    margin-left: 70vh;
+    top: 80px;
+    left: 30px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.img2{
+    width: 700px;
+    margin: 300px;
+    position: relative;
+    margin: 5%;
+}

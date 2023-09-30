@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%
+}
+
+.navbar {
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.navbar .menu-items {
+    display: flex;
+}
+
+.navbar .nav-container li {
+    list-style: none;
+}
+
+.navbar .nav-container a {
+    text-decoration: none;
+    color: #0e2431;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover {
+    font-weight: bolder;
+}
+
+.nav-container {
+    display: block;
+    position: relative;
+    height: 120px;
+    background-color: rgb(112, 1, 139);
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.img{
+    border-radius: 10vh;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    margin: -5vh;
+    z-index: 1; 
+    margin-left: -20px;
+    padding-left: 40px;
+
+
+}
+
+
+.nome-noticia {
+    position: absolute;
+    color: black;
+    font-size: 6vh;
+    margin-left: 15vh;
+    top: 180px;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.search-bar {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.search-bar button[type="submit"] {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.legenda {
+    color: black;
+    width: 750px;
+    text-align: center;
+    margin-left: 444px;
+    margin-top: 300px;
+}
+
+.foto1{
+    display: flex;
+    margin-right: 300px;
+    margin-top: 10px;
+    width: 900px;
+    height: 400px;
+
+}
